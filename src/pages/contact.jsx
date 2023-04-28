@@ -3,9 +3,9 @@ import Layout from '@/Components/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import linktreeLogo from '../assets/linktree-logo.png';
-import discordLogo from '../assets/discord-logo.png';
-import youtubeLogo from '../assets/yt_logo_rgb_light.png';
+import linktreeLogo from 'images/linktree-logo.png';
+import discordLogo from 'images/discord-logo.png';
+import youtubeLogo from 'images/yt_logo_rgb_light.png';
 
 const inter = Inter({ subsets: ['latin'] });
 
