@@ -3,7 +3,6 @@ import Layout from '@/Components/Layout';
 
 import Link from 'next/link';
 import Image from 'next/image';
-import yt_logo_rgb_light from '../assets/';
 
 const inter = Inter({ subsets: ['latin'] });
 
