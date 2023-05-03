@@ -6,6 +6,7 @@ import Link from 'next/link';
 import linktreeLogo from 'images/linktree-logo.png';
 import discordLogo from 'images/discord-logo.png';
 import youtubeLogo from 'images/yt_logo_rgb_light.png';
+import gmailLogo from 'images/gmail-logo.png';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,6 +20,21 @@ const Contact = () => {
 				</h2>
 				<div className='my-5'>
 					<div className='grid grid-cols-1 md:grid-cols-2 gap-4 my-5 max-w-2xl'>
+						<div className='bg-white shadow-md rounded-md overflow-hidden'>
+							<Link href='mailto:cardanost@gmail.com' target='_blank'>
+								<Image
+									className='w-full h-48 object-contain p-4'
+									src={gmailLogo}
+									alt='gmail'
+								/>
+							</Link>
+							<div className='p-4'>
+								<h3 className='text-lg font-bold mb-2'>Gmail</h3>
+								<p className='text-gray-600 text-sm mb-4'>
+									Comunícate con nosotros desde Gmail
+								</p>
+							</div>
+						</div>
 						<div className='bg-white shadow-md rounded-md overflow-hidden'>
 							<Link
 								href='https://linktr.ee/cardanosintecnicismos'
