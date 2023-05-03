@@ -3,10 +3,10 @@ import Layout from '@/Components/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import linktreeLogo from '/linktree-logo.png';
-import discordLogo from '/discord-logo.png';
-import youtubeLogo from '/yt_logo_rgb_light.png';
-import gmailLogo from '/gmail-logo.png';
+import linktreeLogo from 'https://res.cloudinary.com/mayanhavoc/image/upload/v1683127623/cardano-sin-tecnicismos/linktree-logo_c21xkx.png';
+import discordLogo from 'https://res.cloudinary.com/mayanhavoc/image/upload/v1683127623/cardano-sin-tecnicismos/discord-logo_ifuxyc.png';
+import youtubeLogo from 'https://res.cloudinary.com/mayanhavoc/image/upload/v1683127623/cardano-sin-tecnicismos/discord-logo_ifuxyc.png';
+import gmailLogo from 'https://res.cloudinary.com/mayanhavoc/image/upload/v1683127623/cardano-sin-tecnicismos/gmail-logo_alqbgb.png';
 
 const inter = Inter({ subsets: ['latin'] });
 

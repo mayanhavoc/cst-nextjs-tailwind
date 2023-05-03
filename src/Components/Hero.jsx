@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '/cst-logo.png';
+import logo from 'https://res.cloudinary.com/mayanhavoc/image/upload/v1683127623/cardano-sin-tecnicismos/cst-logo_mhlvzj.png';
 
 const Hero = () => {
 	return (
