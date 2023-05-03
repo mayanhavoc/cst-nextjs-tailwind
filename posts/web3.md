@@ -91,5 +91,3 @@ Una de las oportunidades clave de la Web3 es la capacidad de descentralizar los 
 Además, la Web3 también tiene el potencial de democratizar la web y permitir el acceso a servicios y aplicaciones en línea a personas que de otra manera no tendrían acceso. Las dApps pueden ser desarrolladas por cualquier persona y ejecutadas en una red descentralizada, lo que significa que no se requiere un intermediario centralizado para proporcionar servicios en línea. Esto podría llevar a una mayor inclusión digital y una reducción de la brecha digital.
 
 Otra oportunidad de la Web3 es la creación de nuevas formas de interacción en línea. Los contratos inteligentes y las dApps pueden permitir la creación de nuevas formas de intercambio de valor en línea, como la micropago de contenidos y servicios en línea. Además, la Web3 también tiene el potencial de mejorar la transparencia en línea y la rendición de cuentas, ya que todas las transacciones en la blockchain son públicas y pueden ser auditadas.
-
-<br>
