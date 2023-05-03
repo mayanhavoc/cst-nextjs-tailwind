@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import logo from '../assets/cst-logo.png';
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +16,7 @@ const Navbar = () => {
 					<div className='flex items-center'>
 						<Link href='/' className='text-white font-bold text-lg'>
 							<Image
-								src={logo}
+								src='/cst-logo.png'
 								alt='cst logo'
 								width={50}
 								height={50}

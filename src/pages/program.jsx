@@ -3,7 +3,7 @@ import Layout from '@/Components/Layout';
 
 import Link from 'next/link';
 import Image from 'next/image';
-import yt_logo_rgb_light from '../assets/yt_logo_rgb_light.png';
+import yt_logo_rgb_light from '../assets/';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -120,7 +120,7 @@ const Program = () => {
 								target='_blank'>
 								<span className='inline-flex'>
 									<Image
-										src={yt_logo_rgb_light}
+										src='/yt_logo_rgb_light.png'
 										alt='youtube logo red'
 										width={50}
 										height={50}
