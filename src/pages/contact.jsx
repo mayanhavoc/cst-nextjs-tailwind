@@ -3,10 +3,10 @@ import Layout from '@/Components/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import linktreeLogo from '/images/linktree-logo.png';
-import discordLogo from '/images/discord-logo.png';
-import youtubeLogo from '/images/yt_logo_rgb_light.png';
-import gmailLogo from '/images/gmail-logo.png';
+import linktreeLogo from '/linktree-logo.png';
+import discordLogo from '/discord-logo.png';
+import youtubeLogo from '/yt_logo_rgb_light.png';
+import gmailLogo from '/gmail-logo.png';
 
 const inter = Inter({ subsets: ['latin'] });
 

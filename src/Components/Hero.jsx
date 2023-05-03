@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '/images/cst-logo.png';
+import logo from '/cst-logo.png';
 
 const Hero = () => {
 	return (
