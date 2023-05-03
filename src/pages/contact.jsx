@@ -3,11 +3,6 @@ import Layout from '@/Components/Layout';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import linktreeLogo from '/linktree-logo.png';
-import discordLogo from '/discord-logo.png';
-import youtubeLogo from '/yt_logo_rgb_light.png';
-import gmailLogo from '/gmail-logo.png';
-
 const inter = Inter({ subsets: ['latin'] });
 
 const Contact = () => {
@@ -24,7 +19,7 @@ const Contact = () => {
 							<Link href='mailto:cardanost@gmail.com' target='_blank'>
 								<Image
 									className='w-full h-48 object-contain p-4'
-									src={gmailLogo}
+									src='/gmail-logo.png'
 									alt='gmail'
 								/>
 							</Link>
@@ -41,7 +36,7 @@ const Contact = () => {
 								target='_blank'>
 								<Image
 									className='w-full h-48 object-contain p-4'
-									src={linktreeLogo}
+									src='/linktree-logo.png'
 									alt='Linktree'
 								/>
 							</Link>
@@ -57,7 +52,7 @@ const Contact = () => {
 							<Link href='https://discord.gg/kCWWtsN5' target='_blank'>
 								<Image
 									className='w-full h-48 object-contain p-4'
-									src={discordLogo}
+									src='/discord-logo.png'
 									alt='Discord logo'
 								/>
 							</Link>
@@ -74,7 +69,7 @@ const Contact = () => {
 								target='_blank'>
 								<Image
 									className='w-full h-48 object-contain p-4'
-									src={youtubeLogo}
+									src='/yt_logo_rgb_light.png'
 									alt='Youtube logo'
 								/>
 							</Link>
